@@ -1,12 +1,23 @@
-# Default ignored files
+# IDE configuration
+.idea/
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-.venv
-.env
-important/
-.idea/
-db/
 
-docs/
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment variables
+.env
+
+# Local project data
+/backend/db/
+/backend/docs/
+/backend/storage/
+/important/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
