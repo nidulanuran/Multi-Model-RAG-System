@@ -1,0 +1,11 @@
+# Retrieval dependencies; PDF ingestion remains unchanged.
+langchain-classic>=1.0,<2
+langchain-community>=0.4,<0.5
+langchain-core>=1,<2
+langchain-groq>=1,<2
+langchain-huggingface>=1,<2
+langchain-chroma>=1,<2
+sentence-transformers>=5,<6
+rank-bm25>=0.2.2,<0.3
+python-dotenv>=1,<2
+pydantic>=2,<3
